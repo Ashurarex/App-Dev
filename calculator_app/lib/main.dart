@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
-
 void main() {
   runApp(const CalculatorApp());
 }
-
 class CalculatorApp extends StatelessWidget {
   const CalculatorApp({super.key});
   @override
@@ -16,23 +14,19 @@ class CalculatorApp extends StatelessWidget {
     );
   }
 }
-
 class CalculatorHome extends StatefulWidget {
   const CalculatorHome({super.key});
   @override
   State<CalculatorHome> createState() => _CalculatorHomeState();
 }
-
 class _CalculatorHomeState extends State<CalculatorHome> {
   final TextEditingController num1Controller = TextEditingController();
   final TextEditingController num2Controller = TextEditingController();
   String result = "";
-
   void calculate(String operator) {
     double num1 = double.tryParse(num1Controller.text) ?? 0;
     double num2 = double.tryParse(num2Controller.text) ?? 0;
     double res = 0;
-
     switch (operator) {
       case '+':
         res = num1 + num2;
@@ -54,12 +48,10 @@ class _CalculatorHomeState extends State<CalculatorHome> {
         }
         break;
     }
-
     setState(() {
       result = "Result: $res";
     });
   }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
