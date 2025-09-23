@@ -1,12 +1,9 @@
 import 'package:flutter/material.dart';
-
 void main() {
   runApp(const ToDoApp());
 }
-
 class ToDoApp extends StatelessWidget {
   const ToDoApp({super.key});
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -16,18 +13,14 @@ class ToDoApp extends StatelessWidget {
     );
   }
 }
-
 class ToDoHomePage extends StatefulWidget {
   const ToDoHomePage({super.key});
-
   @override
   State<ToDoHomePage> createState() => _ToDoHomePageState();
 }
-
 class _ToDoHomePageState extends State<ToDoHomePage> {
   final List<String> _tasks = [];
   final TextEditingController _controller = TextEditingController();
-
   void _addTask() {
     if (_controller.text.isEmpty) return;
     setState(() {
@@ -35,13 +28,11 @@ class _ToDoHomePageState extends State<ToDoHomePage> {
       _controller.clear();
     });
   }
-
   void _removeTask(int index) {
     setState(() {
       _tasks.removeAt(index);
     });
   }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -83,3 +74,4 @@ class _ToDoHomePageState extends State<ToDoHomePage> {
     );
   }
 }
+
