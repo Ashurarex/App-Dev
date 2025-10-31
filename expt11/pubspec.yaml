@@ -1,0 +1,22 @@
+name: flutter_fetch_api_rest
+description: A Flutter sample that fetches posts from a public REST API and displays them with loading/empty/error states.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  dio: ^5.2.0
+  provider: ^6.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/mock_screenshot_full.png
