@@ -1,0 +1,26 @@
+name: auth_app_fixed
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^4.2.0
+  firebase_auth: ^6.1.1
+  google_sign_in: ^6.2.1
+  fluttertoast: ^8.2.4
+  cupertino_icons: ^1.0.8
+  # For phone auth, reCAPTCHA and error messages, these are enough. Optionally add intl: ^0.19.0 for formatting if needed.
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "108233868945",
+    "project_id": "authreact-aed2f",
+    "storage_bucket": "authreact-aed2f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:108233868945:android:20242b0e80d695eccbe130",
+        "android_client_info": {
+          "package_name": "com.example.authreact"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "108233868945-8ngtbumvrq5dg6tilbv7abrl7ln0vthd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.authreact",
+            "certificate_hash": "eeed06a6932b543c52317627b56eead9af4a06b7"
+          }
+        },
+        {
+          "client_id": "108233868945-kjbs8hnv586k7ovpcm2iqed10ru7ghdd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrH8wlTn3sJpN3Ir6bVWNcLtq5mp4-9XI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "108233868945-kjbs8hnv586k7ovpcm2iqed10ru7ghdd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
