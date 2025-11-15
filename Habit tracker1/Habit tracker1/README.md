@@ -1,4 +1,4 @@
-Mini Project video link: https://drive.google.com/file/d/1ueQ-kClHpHEzvIWeI-ijJp_oaDGR6LEO/view?usp=drivesdk
+⚠️Mini Project video link: https://drive.google.com/file/d/1ueQ-kClHpHEzvIWeI-ijJp_oaDGR6LEO/view?usp=drivesdk ⚠️
 
 # HabitTracker (Improved UI)
 This is an improved UI version scaffold for the HabitTracker Flutter app.
@@ -18,4 +18,5 @@ This is an improved UI version scaffold for the HabitTracker Flutter app.
 4. Run `flutter pub get` then `flutter run`.
 
 Note: Replace any placeholder values and wire Firebase config files before running.
+
 
