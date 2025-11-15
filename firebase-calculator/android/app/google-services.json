@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "971302442867",
+    "project_id": "fir-calc-80ced",
+    "storage_bucket": "fir-calc-80ced.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:971302442867:android:f237f6261ba6d340f6d706",
+        "android_client_info": {
+          "package_name": "com.example.firebase_calc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "971302442867-abcdef123456.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfmJtyfYMK5LAl12NuMO9u6GYyON09zSw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "971302442867-abcdef123456.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

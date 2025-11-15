@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "Auth React Project",
+    "slug": "auth_react",
+    "owner": "rahul199",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      // ⚠️ IMPORTANT: Replace this placeholder with the actual value from your iOS Client ID setup, if you have one.
+      "bundleIdentifier": "com.rahul199.authreact" 
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      // ✅ CRITICAL: This package name MUST match the one used when you generated the Android Client ID
+      "package": "com.rahul199.authreact", 
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "YOUR_EAS_PROJECT_ID" // Replace with your EAS Project ID
+      }
+    },
+    
+    // ✅ CRITICAL: This scheme must be consistent across your app and the useAuthRequest redirectURI
+    "scheme": "authreact" 
+  }
+}
