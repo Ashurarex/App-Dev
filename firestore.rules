@@ -1,0 +1,25 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /users/{userId} {
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+    }
+
+    match /habits/{habitId} {
+      allow read, write: if request.auth != null &&
+        (
+          // On create/update, enforce ownership
+          (request.method == 'create' && request.resource.data.userId == request.auth.uid) ||
+          (request.method == 'update' && resource.data.userId == request.auth.uid && request.resource.data.userId == request.auth.uid) ||
+          (request.method == 'delete' && resource.data.userId == request.auth.uid) ||
+          (request.method == 'get' && resource.data.userId == request.auth.uid)
+        );
+    }
+
+    // Optional: public assets collection could be read-only
+    match /{document=**} {
+      allow read: if false;
+      allow write: if false;
+    }
+  }
+}
