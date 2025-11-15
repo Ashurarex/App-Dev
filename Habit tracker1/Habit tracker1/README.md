@@ -20,3 +20,4 @@ This is an improved UI version scaffold for the HabitTracker Flutter app.
 Note: Replace any placeholder values and wire Firebase config files before running.
 
 
+
